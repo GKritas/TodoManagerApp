@@ -21,21 +21,24 @@ This project is part of the "Master Spring Boot 3 & Spring Framework 6 with Java
 
 ## Getting started
 
-1. Clone the repository `git clone https://github.com/GKritas/TodoManagerApp.git`
+1. Clone the repository 
+```
+git clone https://github.com/GKritas/TodoManagerApp.git
+```
 
 2. Create a MySQL database named `todos`
-
-  `mysql -u <username> -p`
-  
-  `create database todos;`
+  ```
+  mysql -u <username> -p
+  create database todos;
+  ```
   
 3. Open the project in your IDE and update the `application.properties` file with your MySQL username and password.
 
 4. Build and run the project
-
-  `./mvnw spring-boot:run`
-
-5. Open your web browser and go to http://localhost:8080
+```
+./mvnw spring-boot:run
+```
+5. Open your web browser and go to `http://localhost:8080`
 
 ## How to use
 
